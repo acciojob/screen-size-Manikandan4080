@@ -6,4 +6,4 @@ function updateSize(){
 	cont.textContent = `Width : ${width} Height : ${height}`;
 }
 updateSize();
-window.addEventListner("resize", updateSize());
+window.addEventListener('resize', updateSize);
